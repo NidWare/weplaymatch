@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+}
+.navbar {
+	margin-bottom: 1.5rem;
+    width: 100%;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #010e28;
+}
+.navbar .logo {
+	fill: #3bbbe9;
+	width: 118px;
+}
+
+.content {
+	height: calc(100vh - 5.5rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content .box {
+	margin: auto;
+	width: 500px;
+
+}
+
+.form-selectors {
+	border-bottom: 1px solid #c1cde6;
+	font-size: 1rem;
+	color: #000;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.form-selectors .form-select {
+	display: inline-block;
+	margin-right: 10px;
+	cursor: pointer;
+	padding: 7px 0px;
+}
+.form-selectors .selected {
+	border-bottom: 2px solid #00a6e7;
+    color: #00a6e7;
+    font-size: 1rem;
+}
+
+.input-field {
+	margin-bottom: 20px;
+}
+.input-field-header {
+	justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.input-field-header-label {
+	line-height: 1;
+    font-size: .75rem;
+    color: #000;
+    font-weight: 500;
+}
+.input-field-input {
+	padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition-duration: .2s;
+    transition-property: border-color;
+    transition-timing-function: ease-in-out;
+    display: block;
+    outline: none;
+    border: 1px solid #c1cde6;
+    border-radius: 4px;
+    background-color: #fff;
+    width: calc(100% - 2rem);
+    height: 2.5rem;
+    text-align: left;
+    line-height: 2.375;
+    color: #010e28;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.input-field-message {
+	color: #e30e2c;
+}
+
+.button {
+	justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    line-height: 1;
+    font-size: .875rem;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color;
+    transition-timing-function: ease-in-out;
+    outline: none;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    max-width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 500;
+    background: #3bbbe9;
+    color: #010e28;
+    width: 100%;
+    min-height: 40px;
+    max-height: 40px;
+    transition: .35s;
+}
