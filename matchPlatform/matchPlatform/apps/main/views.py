@@ -10,6 +10,11 @@ from .forms import RegistrationForm
 def index(request):
     return render(request, 'index.html')
 
+def file(request):
+    with open('/app/text.txt', 'r') as file:
+        file_content = file.read()
+
+    return HttpResponse(file_content, content_type='text/plain')
 
 def register(request):
     if request.method == "POST":
